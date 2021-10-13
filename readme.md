@@ -10,4 +10,5 @@ The .appendChild() adds a new position to a parent element.
 ### Website Link
 [Sound-Board](https://bhelms2132.github.io/Sound-Board/)
 
+![](assets/images Sound-Board.jpg)
 
