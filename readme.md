@@ -4,6 +4,7 @@ is clicked the last clicked sound will play. Sounds will not play over one anoth
 
 ## Lessons Learned
 [Node.appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+<br>
 The .appendChild() adds a new position to a parent element. 
 
 ### Website Link
