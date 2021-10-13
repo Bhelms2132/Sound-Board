@@ -12,9 +12,21 @@ sounds.forEach(sound => {
 
     //Event Listeners
      btn.addEventListener('click', () => {
+         // Runs Function stopsSongs
+         stopSongs()
+
          document.getElementById(sound).play()
      })
 
     document.getElementById('buttons').appendChild(btn)
-
 })
+
+// Prevents Sounds from playing over each other
+function stopSongs(params) {
+    sounds.forEach(sound => {
+        const song = document.getElementById(sound);
+
+        song.pause();
+        song.currentTime = 0;
+    })
+}
