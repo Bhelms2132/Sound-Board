@@ -10,6 +10,11 @@ sounds.forEach(sound => {
 
     btn.innerText = sound;
 
+    //Event Listeners
+     btn.addEventListener('click', () => {
+         document.getElementById(sound).play()
+     })
+
     document.getElementById('buttons').appendChild(btn)
 
 })
